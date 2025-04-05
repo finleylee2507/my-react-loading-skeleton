@@ -1,0 +1,79 @@
+{
+  "name": "@finleylee2507/react-loading-skeleton",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "styled-components": "^5.0.0 || ^6.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@storybook/addon-essentials": "^8.6.11",
+    "@storybook/addon-interactions": "^8.6.11",
+    "@storybook/addon-onboarding": "^8.6.11",
+    "@storybook/blocks": "^8.6.11",
+    "@storybook/react": "^8.6.11",
+    "@storybook/react-vite": "^8.6.11",
+    "@storybook/test": "^8.6.11",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "eslint-plugin-storybook": "^0.12.0",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "storybook": "^8.6.11",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finleylee2507/my-react-loading-skeleton"
+  },
+  "keywords": [
+    "react",
+    "skeleton",
+    "loading",
+    "ui",
+    "component"
+  ],
+  "author": "Finley Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finleylee2507/my-react-loading-skeleton/issues"
+  },
+  "homepage": "https://github.com/finleylee2507/my-react-loading-skeleton#readme"
+}
