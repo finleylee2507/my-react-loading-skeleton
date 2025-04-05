@@ -1,1 +1,1 @@
-export * from "./components";
+export { default as LoadingSkeleton } from "./components/LoadingSkeleton";
